@@ -1,0 +1,22 @@
+{
+  "name": "node_shop_server",
+  "version": "0.0.1",
+  "description": "flutter 女装商城服务端",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -r intelli-espower-loader -t 20000 test",
+    "precommit": "lint-staged"
+  },
+  "main": "app.js",
+  "keywords": [
+    "node",
+    "shop"
+  ],
+  "author": "MuddyRain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
+}
